@@ -11,6 +11,9 @@
     html {
       font-family: 'Montserrat';
     }
+    body {
+      color: #666;
+    }
     .navbar {
       background-color: black;
       opacity: .8;
@@ -30,16 +33,16 @@
       background-color: transparent;
       background-image: url('glasses-hero.jpg');
       background-origin: padding-box;
-      background-position: center center;
+      background-position: top right;
       background-repeat: no-repeat;
-      background-size: 50%; 
+      background-size: 75%;
       display: block;
       min-height: 600px;
       padding-bottom: 40px;
       padding-left: 0px;
       padding-right: 0px;
       position: relative;
-      color: white;
+      text-align: center;
     }
     #sub-banner-one {
       background-attachment: scroll;
@@ -56,7 +59,6 @@
       padding-left: 0px;
       padding-right: 0px;
       position: relative;
-      color: white;
     }
     .sub-banner-divider {
       min-height: 7px;
@@ -76,7 +78,6 @@
       padding-left: 0px;
       padding-right: 0px;
       position: relative;
-      color: white;
     }
     #sub-banner-three {
       background-attachment: scroll;
@@ -93,18 +94,40 @@
       padding-left: 0px;
       padding-right: 0px;
       position: relative;
-      color: white;
     }
     .footer {
       color: #666;
       min-height: 403px;
       background-color: rgba(211, 211, 211, .3)
     }
+    .footer a {
+      color: #666;
+    }
+    .footer a:hover {
+      color: #333;
+    }
     .social-icons {
-      padding-top: 50px;
+      padding-top: 150px;
     }
     .fa {
       padding: 10 10 10 10;
+      color: "#666";
+    }
+    #hero-content {
+      position: absolute;
+      left: 5%;
+      top: 5%;
+      height: 408px;
+      text-align: center;
+      font-weight: 200;
+      color: #333;
+    }
+    #hero-content h1 {
+      font-size: 50px;
+    }
+    #hero-content p {
+      font-size: 25px;
+      color: #333;
     }
   </style>
 </head>
@@ -113,6 +136,10 @@
   <nav class="navbar navbar-inverse">
   </nav>
   <div id="hero-banner">
+    <div id="hero-content">
+      <h1>**NAME** Eyewear</h1>
+      <p>Ridiculously polarized.</p>
+    </div>
   </div>
   <div id="sub-banner-one">
   </div>
@@ -126,10 +153,10 @@
   </div>
   <footer class="footer">
     <div class="social-icons text-center">
-        <i class="fa fa-facebook fa-2x"></i>
-        <i class="fa fa-twitter fa-2x"></i>
-        <i class="fa fa-google-plus fa-2x"></i>
-        <i class="fa fa-youtube fa-2x"></i>
+        <a href="" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+        <a href="" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+        <a href="" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
     </div>
   </footer>
 </body>

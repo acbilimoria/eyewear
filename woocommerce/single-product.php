@@ -21,6 +21,12 @@ get_header( 'shop' ); ?>
   #container {
     min-height: 600px;
   }
+  li.description_tab.active {
+    display: none;
+  }
+  li.reviews_tab {
+    display: none;
+  }
 </style>
 
 	<?php

@@ -15,8 +15,6 @@
   </div>
   <div id="shopping-container">
   </div>
-  <div class="sub-banner-divider">
-  </div>
   <div id="sub-banner-two">
   </div>
   <div class="sub-banner-divider">

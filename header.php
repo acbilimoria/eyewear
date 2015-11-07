@@ -17,10 +17,10 @@
 
     <nav class="navbar navbar-inverse">
       <p>
-        <a href="">Company Logo Icon</a>
-        <a href="">Shop</a>
-        <a href="">Shop</a>
-        <a href="">Shop</a>
-        <a href="">Shop</a>
+        <a href="/wp/wordpress/">Company Logo Icon</a>
+        <a href="/wp/wordpress/index.php/shop/">Shop</a>
+        <a href="">About</a>
+        <a href="/wp/wordpress/index.php/cart/">Cart</a>
+        <a href="/wp/wordpress/index.php/my-account/">Account</a>
       </p>
     </nav>

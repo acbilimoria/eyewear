@@ -12,13 +12,12 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 
 */
 
-@import url('bootstrap/css/bootstrap.css'); 
-@import url('bootstrap/css/bootstrap-responsive.css'); 
       html {
         font-family: 'Montserrat';
       }
       body {
         color: #666;
+        font-family: 'Montserrat';
       }
       .navbar {
         background-color: black;
@@ -151,3 +150,13 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
         background-color: rgba(211, 211, 211, .3);
         height: 600px;
       }
+    .navbar-nav {
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+      width: 100%;
+    }
+    .navbar-nav li a {
+      padding-left: 110px;
+      padding-right: 110px;
+      text-align: center;
+    }
